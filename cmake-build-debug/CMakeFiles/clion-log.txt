@@ -1,0 +1,27 @@
+/snap/clion/177/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/snap/clion/177/bin/ninja/linux/ninja -G Ninja /home/ilia/CLionProjects/chat
+-- The crossplatform build is disabled
+-- buid type    Debug
+-- Project      Qt-Secret
+-- c compiler   /usr/bin/cc
+-- cxx compiler /usr/bin/c++
+-- build shared ON
+-- qmake exec   
+test sub targets: 
+prepare tests for 
+prepare tests for /home/ilia/CLionProjects/chat/Qt-Secret/Testing/QtBigint/QtBigintTest.sh
+the test target already created!
+doc subtargets: 
+deploy subtargets: 
+release subtargets: 
+the doxygen not exits please install or add a path to doxygen to a PATH envirement variable and run cmake again!
+prepare tests for /home/ilia/CLionProjects/chat/Qt-Secret/Testing/Qt-SecretRSA/Qt-SecretTest_RSA.sh
+prepare tests for /home/ilia/CLionProjects/chat/Qt-Secret/Testing/Qt-SecretAES/Qt-SecretTest_AES.sh
+The GUI Example is enabled
+the test target already created!
+the doc target already created!
+the deploy target already created!
+the release target already created!
+the doxygen not exits please install or add a path to doxygen to a PATH envirement variable and run cmake again!
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ilia/CLionProjects/chat/cmake-build-debug

@@ -1,0 +1,413 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						12,
+						13
+					]
+				},
+				{
+					"build" : "Qt-Secret",
+					"childIndexes" : 
+					[
+						2,
+						5,
+						6,
+						7
+					],
+					"jsonFile" : "directory-Qt-Secret-Debug-9fc5fd5fb8d35346e6a2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "Qt-Secret"
+				},
+				{
+					"build" : "Qt-Secret/src/mini-gmp",
+					"childIndexes" : 
+					[
+						3,
+						4
+					],
+					"jsonFile" : "directory-Qt-Secret.src.mini-gmp-Debug-a6276d8f9fa6b7503a97.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "Qt-Secret/src/mini-gmp",
+					"targetIndexes" : 
+					[
+						14,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "Qt-Secret/src/mini-gmp/src",
+					"jsonFile" : "directory-Qt-Secret.src.mini-gmp.src-Debug-08d842c2c316d1b3c1f0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "Qt-Secret/src/mini-gmp/src",
+					"targetIndexes" : 
+					[
+						8,
+						11
+					]
+				},
+				{
+					"build" : "Qt-Secret/src/mini-gmp/tests",
+					"jsonFile" : "directory-Qt-Secret.src.mini-gmp.tests-Debug-af1e12122b249e822a08.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "Qt-Secret/src/mini-gmp/tests",
+					"targetIndexes" : 
+					[
+						9,
+						10,
+						17,
+						20,
+						23
+					]
+				},
+				{
+					"build" : "Qt-Secret/src",
+					"jsonFile" : "directory-Qt-Secret.src-Debug-497011bec304288bba10.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "Qt-Secret/src",
+					"targetIndexes" : 
+					[
+						0,
+						7
+					]
+				},
+				{
+					"build" : "Qt-Secret/tests",
+					"jsonFile" : "directory-Qt-Secret.tests-Debug-8662607a68ca0cf10a8c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "Qt-Secret/tests",
+					"targetIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6,
+						15,
+						16,
+						21,
+						22
+					]
+				},
+				{
+					"build" : "Qt-Secret/Qt-Secret-GUI",
+					"jsonFile" : "directory-Qt-Secret.Qt-Secret-GUI-Debug-466d99b96f6af0f60c15.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "Qt-Secret/Qt-Secret-GUI",
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "chat",
+					"targetIndexes" : 
+					[
+						12,
+						13
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						5,
+						6,
+						7
+					],
+					"name" : "Qt-Secret",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						15,
+						16,
+						21,
+						22
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3,
+						4
+					],
+					"name" : "QtBigint",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						8,
+						9,
+						10,
+						11,
+						14,
+						17,
+						18,
+						19,
+						20,
+						23
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 5,
+					"id" : "Qt-Secret::@d27b8ecd97718717dc37",
+					"jsonFile" : "target-Qt-Secret-Debug-3c97e140982065820603.json",
+					"name" : "Qt-Secret",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "Qt-Secret-GUI::@ddffae524c50d01abe50",
+					"jsonFile" : "target-Qt-Secret-GUI-Debug-448473c0a1fd03e9a1c3.json",
+					"name" : "Qt-Secret-GUI",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "Qt-Secret-GUI_autogen::@ddffae524c50d01abe50",
+					"jsonFile" : "target-Qt-Secret-GUI_autogen-Debug-a7a190651e92dd7dbe45.json",
+					"name" : "Qt-Secret-GUI_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "Qt-SecretTest_AES::@4051c4e321833871d2bb",
+					"jsonFile" : "target-Qt-SecretTest_AES-Debug-d1600423d22e6de3a3fb.json",
+					"name" : "Qt-SecretTest_AES",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "Qt-SecretTest_AES_autogen::@4051c4e321833871d2bb",
+					"jsonFile" : "target-Qt-SecretTest_AES_autogen-Debug-a872748f57dfdb3d5b31.json",
+					"name" : "Qt-SecretTest_AES_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "Qt-SecretTest_RSA::@4051c4e321833871d2bb",
+					"jsonFile" : "target-Qt-SecretTest_RSA-Debug-578de5f8dfa909d14182.json",
+					"name" : "Qt-SecretTest_RSA",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "Qt-SecretTest_RSA_autogen::@4051c4e321833871d2bb",
+					"jsonFile" : "target-Qt-SecretTest_RSA_autogen-Debug-a6b068df6d5717a6f613.json",
+					"name" : "Qt-SecretTest_RSA_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "Qt-Secret_autogen::@d27b8ecd97718717dc37",
+					"jsonFile" : "target-Qt-Secret_autogen-Debug-4402f6c8a75f2a9a0531.json",
+					"name" : "Qt-Secret_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "QtBigint::@97fc14b235efbb5a1def",
+					"jsonFile" : "target-QtBigint-Debug-9cbb7c31d147d62f9c2f.json",
+					"name" : "QtBigint",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "QtBigintTest::@41cd30918b3defb1c60f",
+					"jsonFile" : "target-QtBigintTest-Debug-5b8cff894d421bad9b5b.json",
+					"name" : "QtBigintTest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "QtBigintTest_autogen::@41cd30918b3defb1c60f",
+					"jsonFile" : "target-QtBigintTest_autogen-Debug-a6d2f44ed3aeaa1eadf2.json",
+					"name" : "QtBigintTest_autogen",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "QtBigint_autogen::@97fc14b235efbb5a1def",
+					"jsonFile" : "target-QtBigint_autogen-Debug-3aeaa29e0efb623aa008.json",
+					"name" : "QtBigint_autogen",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chat::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chat-Debug-d5c298237f2932ba9b2d.json",
+					"name" : "chat",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chat_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chat_autogen-Debug-bcea2166f6a2cee90d12.json",
+					"name" : "chat_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "deploy::@45bb71c845b8630a2712",
+					"jsonFile" : "target-deploy-Debug-b33951abaf2195884555.json",
+					"name" : "deploy",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "deployTestQt-SecretAES::@4051c4e321833871d2bb",
+					"jsonFile" : "target-deployTestQt-SecretAES-Debug-11e8951953540769682d.json",
+					"name" : "deployTestQt-SecretAES",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "deployTestQt-SecretRSA::@4051c4e321833871d2bb",
+					"jsonFile" : "target-deployTestQt-SecretRSA-Debug-0791a4ea28caf4d302af.json",
+					"name" : "deployTestQt-SecretRSA",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "deployTestQtBigint::@41cd30918b3defb1c60f",
+					"jsonFile" : "target-deployTestQtBigint-Debug-f5cc14b19f5be3367dd4.json",
+					"name" : "deployTestQtBigint",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "doc::@45bb71c845b8630a2712",
+					"jsonFile" : "target-doc-Debug-c6fbe76767406e2b587e.json",
+					"name" : "doc",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "release::@45bb71c845b8630a2712",
+					"jsonFile" : "target-release-Debug-8cdb2f2f8170463d2a05.json",
+					"name" : "release",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "test::@41cd30918b3defb1c60f",
+					"jsonFile" : "target-test-Debug-7ef1b6568da3c40fce7c.json",
+					"name" : "test",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "testQt-SecretAES::@4051c4e321833871d2bb",
+					"jsonFile" : "target-testQt-SecretAES-Debug-d2273fb1b954b8f09a5d.json",
+					"name" : "testQt-SecretAES",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "testQt-SecretRSA::@4051c4e321833871d2bb",
+					"jsonFile" : "target-testQt-SecretRSA-Debug-cd95736e49dba140296b.json",
+					"name" : "testQt-SecretRSA",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "testQtBigint::@41cd30918b3defb1c60f",
+					"jsonFile" : "target-testQtBigint-Debug-76e12bfe3ec3de7b1ede.json",
+					"name" : "testQtBigint",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ilia/CLionProjects/chat/cmake-build-debug",
+		"source" : "/home/ilia/CLionProjects/chat"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,58 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"Qt-Secret/src/mini-gmp/src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"id" : "QtBigint_autogen::@97fc14b235efbb5a1def",
+	"isGeneratorProvided" : true,
+	"name" : "QtBigint_autogen",
+	"paths" : 
+	{
+		"build" : "Qt-Secret/src/mini-gmp/src",
+		"source" : "Qt-Secret/src/mini-gmp/src"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/Qt-Secret/src/mini-gmp/src/CMakeFiles/QtBigint_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/Qt-Secret/src/mini-gmp/src/CMakeFiles/QtBigint_autogen.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

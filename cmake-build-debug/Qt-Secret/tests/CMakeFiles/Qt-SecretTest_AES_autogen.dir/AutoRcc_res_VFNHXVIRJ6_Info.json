@@ -1,0 +1,22 @@
+{
+	"BUILD_DIR" : "/home/ilia/CLionProjects/chat/cmake-build-debug/Qt-Secret/tests/Qt-SecretTest_AES_autogen",
+	"CMAKE_BINARY_DIR" : "/home/ilia/CLionProjects/chat/cmake-build-debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/ilia/CLionProjects/chat/cmake-build-debug/Qt-Secret/tests",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/ilia/CLionProjects/chat/Qt-Secret/tests",
+	"CMAKE_SOURCE_DIR" : "/home/ilia/CLionProjects/chat",
+	"INCLUDE_DIR" : "/home/ilia/CLionProjects/chat/cmake-build-debug/Qt-Secret/tests/Qt-SecretTest_AES_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/ilia/CLionProjects/chat/Qt-Secret/src/Qt-AES/unit_test/longText.txt"
+	],
+	"LOCK_FILE" : "/home/ilia/CLionProjects/chat/cmake-build-debug/Qt-Secret/tests/CMakeFiles/Qt-SecretTest_AES_autogen.dir/AutoRcc_res_VFNHXVIRJ6_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "res" ],
+	"OUTPUT_CHECKSUM" : "VFNHXVIRJ6",
+	"OUTPUT_NAME" : "qrc_res.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt5/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/ilia/CLionProjects/chat/cmake-build-debug/Qt-Secret/tests/CMakeFiles/Qt-SecretTest_AES_autogen.dir/AutoRcc_res_VFNHXVIRJ6_Used.txt",
+	"SOURCE" : "/home/ilia/CLionProjects/chat/Qt-Secret/src/Qt-AES/res.qrc",
+	"VERBOSITY" : 0
+}
